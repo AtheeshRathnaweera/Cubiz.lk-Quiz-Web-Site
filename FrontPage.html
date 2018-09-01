@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+
+	<link rel="stylesheet" type="text/css" href="FrontPageCSS.css">
+	
+</head>
+
+    
+<body onload="return validate();">
+        
+    <div class="container" >
+        
+        <div class="logo">
+        <img src="images/CubeLogo.png" alt="logo"/>
+        </div>
+        <div class="welcome">WELCOME!</div>
+        
+        <div class="description">
+        
+            <div class="floating-box">
+                
+                <p class="des"><b><span style="font-size:2.3vw ;margin-left:9%">W</span>elcome to the CUBIZ.lk online quizes site.100+ quizes have categorized under 15 categories.You can choose any type of quiz as you prefer.Don't take much time.Complete the simple log in forum and start a quiz.
+                <br/>
+                    Have fun.</b></p>
+            </div>
+        
+            <div class="floating-box">
+                
+            <div class="form">
+                
+                <form name="loginform" onsubmit="return validate();" method="post">
+                    
+                    <label>Enter your name:</label><br/>
+                    <input type="text" name="comname" id="name" ><br>
+                    <label style="margin-left: 21.1%;">Select your gender:</label><br/>
+                    <input type="radio" name="gender" value="male"checked>Male<br/>
+                    <input type="radio" name="gender" value="Female">Female<br/>
+                    <input type="submit" value="Start a quiz">
+                </form>
+                </div>
+            
+            </div>
+            
+        </div>
+        
+        <footer>
+            <p>Published by Cubiz.lk</p>
+        </footer>
+
+    
+    </div>
+    
+    <script>
+        function validate(){
+            
+        var n=document.loginform.comname.value;
+            
+            if(n==""){
+                
+                alert("Please fill the forum properly!");
+                document.loginform.comname.focus();
+                return true;
+            }else
+                window.location="homepage.html";
+                return false;
+        }
+    </script>
+    
+    
+</body>
+    
+</html>
