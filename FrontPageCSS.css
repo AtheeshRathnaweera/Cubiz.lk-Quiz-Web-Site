@@ -1,0 +1,97 @@
+.container{
+    
+    border:1px solid #b3c6ff ;
+    position: relative;
+    height:100%;
+    background-image:url("images/swirl_pattern.png");
+    background-blend-mode:lighten;
+}
+
+
+img{
+    max-width:12%;
+    max-height:12%;
+    display:block;
+    margin: 5% auto 0% auto ;
+}
+
+.logo{
+    background-color: darkblue;
+}
+.welcome{
+    text-align:center;
+    font: 5vw regular,Showcard Gothic;
+    color: white;
+    margin-top: -2%;
+    background-color: darkblue;
+    box-shadow: 0 3px 2px 0 gray;
+    text-shadow: 0px 6px lightgray;
+}
+
+.description{
+   
+	 padding:1em;
+    overflow:hidden;
+}
+
+.floating-box{
+	float:left;
+	 width:49.8%;
+	 height:360px; 
+    position:relative;
+ }
+p.des{
+    text-align:justify;
+    font-size: 2.2vw;
+    margin-left: 5%;
+    margin-top:5%;
+    font-family: Adobe Hebrew;
+}
+
+form{
+    font-size: 2.1vw;
+    width: 70%;
+    margin:5% 5% 5% 20%;
+    padding: 2% 0% 2% 0%;
+    background-image: url(backgrounds/swirl_pattern_new.png);
+    border-radius: 25px;
+     box-shadow: 0 3px 2px 0 lightgray;
+}
+
+label{
+    margin: 0% 0% 0% 23%;
+    font-size: 120%;
+}
+
+input[type="text"]{
+    margin-left: 24%;
+    border:none;
+    border-radius:20px;
+    font-size: 1.8vw;
+    font-weight:50;
+    padding: 0.5% 2% 0.5% 2%;
+    height:2.5vw; 
+    width:15.5vw;
+    background-color: lightgrey;
+    opacity: 0.5;
+}
+
+input[type="radio"]{
+    margin-left: 38%;
+    
+}
+
+input[type="submit"]{
+    margin-left:33%;
+    height: 2.6vw;
+    width:12vw;
+    font-size:1.4vw;
+    border-radius:20px;
+    border:none; 
+    background-color: chartreuse;
+    box-shadow: 0 3px 2px 0 black;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid black;
+}
