@@ -1,0 +1,161 @@
+.container{
+    
+    border:1px solid #b3c6ff ;
+    position: relative;
+    height:100%;
+    background-image:url("images/swirl_pattern.png");
+    background-blend-mode:lighten;
+}
+
+header{
+    border-bottom: 1px solid black;
+    height:1.4vw;
+    padding:1%;
+    background-color: darkblue;
+}
+
+.logo{
+    max-height:4vw;
+    max-width: :2vw;
+}
+
+
+
+.left{
+    float:left;
+    margin:-1.2% -1% 1% -1%;
+}
+
+.name{
+    color:white;
+    font-size:2.2vw;
+    margin-top:-0.6% ;
+    text-shadow: 2px 3px gray;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.exit{
+      float:right; 
+   margin:-5.8% 4.3% 1% -1%;
+   height: 3.5vw; 
+    width:4vw;
+   
+}
+
+.exit:hover{
+     max-height: 3.6vw; 
+    max-width:4.2vw;
+    margin:-5.9% 4.2% 1% -1.2%;
+}
+
+
+
+.feedback{
+    float:right; 
+   margin:-5.6% 0.5% 1% -1%;
+   max-height: 3vw; 
+    max-width:4vw;
+}
+
+.feedback:hover{
+     max-height: 3.2vw; 
+    max-width:4.2vw;
+    margin:-5.7% 0.4% 1% -1%;
+}
+
+.optionicon{
+    height:2vw;
+    width:2vw;
+}
+.dropdown{
+    float:left;
+    position:relative;
+    display:inline-block;
+    font-size: 2vw;
+    
+}
+
+.dropdownbutton{
+    cursor:pointer;
+    margin:-0.2% 0% 0% -1vw; 
+    box-shadow: 0px 2px 4px 0px gray;
+    
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    width:18vw;
+    overflow:auto;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    background-color: whitesmoke;
+    font-weight: 100;
+    font-size: 1.2vw;
+    color: cadetblue;
+}
+.dropdown-content a{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    margin: 4% 0% 4% 0%;
+}
+
+.show{
+    display:block; 
+}
+
+.maintext{
+    font-size: 4vw;
+    margin:-3% auto 3% 35%;
+    text-shadow: 0px 2px gray;
+}
+
+.quizesDivision{
+    margin:-1.5% 0.5% 22% -1%;
+    height: 30%;
+   
+}
+
+.floating-box{
+	float:left;
+    height:19.5vw;
+    width:19.7vw;
+   margin:1% 1% -0.5% 3.5%;
+    border:1px solid white;
+     box-shadow: 0px 5px 5px 1px gray;
+   background: white;
+ }
+
+.subTitle{
+    font-size: 2vw;
+    margin:-1.5% 0.5% 0% 2%;
+    color:brown;
+    font-style: bold;
+}
+
+.imageEdit{
+   height:15vw;
+    width:19.6vw;
+    margin: 0.5%;   
+}
+
+.floating-box:hover{
+    padding:0.1%;
+}
+
+.textInBox{
+    font-size: 1.5vw;
+    color: darkgreen;
+    margin:-1% auto -1% auto;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid black;
+}
